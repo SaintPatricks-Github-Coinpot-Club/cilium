@@ -291,11 +291,6 @@ data:
   # BPF NAT table.
   bpf-nat-global-max: "{{ .Values.bpf.natMax }}"
 {{- end }}
-{{- if hasKey .Values.bpf "neighMax" }}
-  # bpf-neigh-global-max specified the maximum number of entries in the
-  # BPF neighbor table.
-  bpf-neigh-global-max: "{{ .Values.bpf.neighMax }}"
-{{- end }}
 {{- if hasKey .Values.bpf "policyMapMax" }}
   # bpf-policy-map-max specifies the maximum number of entries in endpoint
   # policy map (per endpoint)

@@ -251,9 +251,6 @@ bpf:
   # -- Configure the maximum number of entries for the NAT table.
   # natMax: 524288
 
-  # -- Configure the maximum number of entries for the neighbor table.
-  # neighMax: 524288
-
   # -- Configure the maximum number of entries in endpoint policy map (per endpoint).
   policyMapMax: 16384
 
