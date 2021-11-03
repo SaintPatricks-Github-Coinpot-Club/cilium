@@ -4,7 +4,7 @@ go 1.17
 
 // direct dependencies
 require (
-	github.com/Azure/azure-sdk-for-go v54.0.0+incompatible
+	github.com/Azure/azure-sdk-for-go v54.3.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.21
 	github.com/Azure/go-autorest/autorest/adal v0.9.14
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.7
@@ -37,7 +37,7 @@ require (
 	github.com/go-openapi/loads v0.20.2
 	github.com/go-openapi/runtime v0.19.30
 	github.com/go-openapi/spec v0.20.3
-	github.com/go-openapi/strfmt v0.20.3
+	github.com/go-openapi/strfmt v0.21.0
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-openapi/validate v0.20.2
 	github.com/gogo/protobuf v1.3.2
@@ -83,7 +83,7 @@ require (
 	go.etcd.io/etcd/api/v3 v3.5.0
 	go.etcd.io/etcd/client/pkg/v3 v3.5.0
 	go.etcd.io/etcd/client/v3 v3.5.0
-	go.mongodb.org/mongo-driver v1.5.1 // indirect
+	go.mongodb.org/mongo-driver v1.7.3 // indirect
 	go.uber.org/goleak v1.1.10
 	go.universe.tf/metallb v0.10.0
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
